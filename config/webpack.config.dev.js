@@ -10,6 +10,7 @@ module.exports = {
     hot: false,
     port: 8080,
     open: true,
+    allowedHosts: 'all',
     client: {
       overlay: {
         errors: true,
